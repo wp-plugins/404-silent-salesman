@@ -59,6 +59,11 @@ Available options:
 
 
 
+== Screenshots ==
+
+1. Shows the final page after setting the options from the plugin setup page.
+2. Plugin Options. NOtice they match the page.
+
 == Changelog ==
 
 
