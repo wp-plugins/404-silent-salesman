@@ -51,7 +51,7 @@ function silentsalesman_404_options_do_page() {
 	<div class="wrap">
 	<div style="background: #F3F3F3;-moz-border-radius: 3px;border-radius: 3px;margin:5%;padding: 10px;-moz-box-shadow: 0 0 5px #888;-webkit-box-shadow: 0 0 5px#888;box-shadow: 0 0 5px #888;width: 40%;float: left"> 
 	<h1 style='margin-bottom: 30px;text-align: center'><?php _e('404 Silent Salesman','woothemes') ?></h1>
-	<h3><?php _e("Just fill out the information below and you're good to go. Be sure to check/uncheck the Activate 404 Silent Salesman field as needed.","woothemes") ?></h3>
+	<h3><?php _e("Just fill out the information below and you're good to go. Be sure to check/uncheck the Activate 404 Silent Salesman field as needed. Also, products will only display if WooCommerce is active","woothemes") ?></h3>
 	<form method="post" action="options.php">
 		<?php settings_fields('silentsalesman_404_options'); ?>
 		<ul>
