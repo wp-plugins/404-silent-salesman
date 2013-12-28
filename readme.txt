@@ -9,9 +9,9 @@ Tags: woocommerce, 404 redirect, 404, products, sales
 
 Requires at least: 3.0.1
 
-Tested up to: 3.6
-Stable tag: 1.0
-.1
+Tested up to: 3.8
+Stable tag: 1.0.2
+
 License: GPLv2 or later
 
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -36,9 +36,13 @@ Available options:
 * Choose to display text only, products only or both
 * Set page title and text
 
-**This is the beta version. While everything should be working, please report any issues you find.**
+This plugin is now supported by a pro version which includes:
 
+* The same functionality for empty search results
+* Priority support
+* First look at new features and functionality
 
+**Download the Pro version here - https://wpovernight.com/downloads/silent-salesman-pro/**
 
 == Installation ==
 

@@ -4,7 +4,7 @@
   Plugin Name: Silent Salesman
   Plugin URI: www.wpovernight.com/
   Description: 404 Silent Salesman turns dead 404 error traffic into profits. Just install the plugin and navigate to the options page under pages -> Silent Salesman
-  Version: 1.0.1
+  Version: 1.0.2
   Author: Jeremiah Prummer
   Author URI: www.wpovernight.com/about
   License: GPL2
@@ -29,7 +29,7 @@ class SilentSalesmanPro {
         
         //Setup our options and inclues
         $this->includes();
-        register_activation_hook(__FILE__, array('SilentSalesmanPro_Settings', 'default_settings'));
+        //register_activation_hook(__FILE__, array('SilentSalesmanPro_Settings', 'default_settings'));
         $this->options = get_option('silentsalesman');
         $this->settings = new SilentSalesmanPro_Settings();
 
@@ -60,7 +60,7 @@ class SilentSalesmanPro {
             $column_number = $this->options['404_column_count'];
             $display_type = $this->options['404_product_display'];
             $product_type = $this->options['404_product_type'];
-            $content = "content";//$this->options['404_page_content'];
+            $content = $this->options['404_page_content'];
 
             // Set product output
             if ($product_type == 1) {

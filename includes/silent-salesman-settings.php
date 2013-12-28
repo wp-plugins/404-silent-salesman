@@ -42,6 +42,7 @@ class SilentSalesmanPro_Settings {
 		?>
 		<h2 class="nav-tab-wrapper">  
             <a href="?post_type=page&page=silentsalesman_options_page&tab=standard_options" class="nav-tab <?php echo $active_tab == 'standard_options' ? 'nav-tab-active' : ''; ?>">404 Options</a>  
+			<a href="?post_type=page&page=silentsalesman_options_page&tab=search_options" class="nav-tab <?php echo $active_tab == 'search_options' ? 'nav-tab-active' : ''; ?>">Search Options</a> 
 		</h2> 
 		<?php     
          
@@ -57,13 +58,41 @@ class SilentSalesmanPro_Settings {
 
         <form method="post" action="options.php">
         <?php
+		if ($active_tab == 'standard_options') {
 			settings_fields('silentsalesman');
-            do_settings_sections('silentsalesman');	
-        
-            submit_button();
-        
+            do_settings_sections('silentsalesman');
+			submit_button();			
+        }
+		else {
+		?>
+			<p style="margin-top:20px;font-size: 18px;margin-bottom:20px;line-height: 24px;">This feature is only available in the pro version, but get a 50% discount if you're one<br /> of the first 20 buyers! See below for more info.</p>
+		<?php
+		}    
         ?>
-        </form><?php
+        </form>
+		<div style="line-height: 20px; background: #F3F3F3;-moz-border-radius: 3px;border-radius: 3px;padding: 10px;-moz-box-shadow: 0 0 5px #ff0000;-webkit-box-shadow: 0 0 5px#ff0000;box-shadow: 0 0 5px #ff0000;padding: 10px;margin:0px auto; font-size: 13.8px;width: 60%;float: left"> 
+			<h2><?php _e('Get Silent Salesman Pro!','silentsalesman') ?></h2>
+			<br>
+			<strong><?php _e('Limited Offer:','silentsalesman') ?> <span style="color: red"><?php _e('50% off!','silentsalesman') ?></span></strong> - 
+			<span><?php _e('Valid for first 20 customers only.','silentsalesman')?></span>
+			<span><?php _e('Use Coupon Code ','silentsalesman')?></span><strong><span><?php _e('silentsalesman50','silentsalesman')?></span></strong>
+			<span><?php _e('at checkout.','silentsalesman')?></span>
+			<br>
+			<br>
+			<?php _e('Includes all the great standard features found in this free version plus:','silentsalesman') ?>
+			<br>
+			<ul style="list-style-type:circle;margin-left: 40px">
+				<li><?php _e('The option to add the same functionality to an empty search results page','silentsalesman') ?></li>
+				<li><?php _e('Priority Customer Support','silentsalesman') ?></li>
+				<li><?php _e('First access to new features & functionality','silentsalesman') ?></li>
+			</ul>
+			<?php
+			$menucartadmore = '<a href="https://wpovernight.com/downloads/silent-salesman-pro/?utm_source=wordpress&utm_medium=silentsalesman&utm_campaign=silentsalesmanintro">';
+			printf (__('Need to see more? %sClick here%s to check it out!','silentsalesman'), $menucartadmore,'</a>'); ?><br><br>
+			<a class="button button-primary" style="text-align: center;margin: 0px auto" href="https://wpovernight.com/downloads/silent-salesman-pro/?utm_source=wordpress&utm_medium=silentsalesman&utm_campaign=silentsalesmanintro"><?php _e('Buy Now','silentsalesman') ?></a>
+		</div>
+		
+		<?php
     }
 
     /**
