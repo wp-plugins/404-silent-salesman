@@ -73,25 +73,25 @@ This plugin is now supported by a pro version which includes:
 
 
 = 1.0.2 = 
-*Fixed bug with text not being displayed properly and generally cleaned up code. 
-*Pro version was released: https://wpovernight.com/downloads/silent-salesman-pro/ 
+* Fixed bug with text not being displayed properly and generally cleaned up code. 
+* Pro version was released: https://wpovernight.com/downloads/silent-salesman-pro/ 
 
 = 1.0.1 =
-*Error Fixed
+* Error Fixed
 
 = 1.0.0 =
-*Initial Release
+* Initial Release
 
 == Upgrade Notice ==
 
 
 
 = 1.0.2 = 
-*Fixed bug with text not being displayed properly and generally cleaned up code. 
-*Pro version was released: https://wpovernight.com/downloads/silent-salesman-pro/ 
+* Fixed bug with text not being displayed properly and generally cleaned up code. 
+* Pro version was released: https://wpovernight.com/downloads/silent-salesman-pro/ 
 
 = 1.0.1 =
-*Error Fixed
+* Error Fixed
 
 = 1.0.0 =
-*Initial Release
+* Initial Release
