@@ -65,7 +65,7 @@ class SilentSalesmanPro_Settings {
         }
 		else {
 		?>
-			<p style="margin-top:20px;font-size: 18px;margin-bottom:20px;line-height: 24px;">This feature is only available in the pro version, but get a 50% discount if you're one<br /> of the first 20 buyers! See below for more info.</p>
+			<p style="margin-top:20px;font-size: 18px;margin-bottom:20px;line-height: 24px;">This feature is only available in the pro version, but get a 25% discount if you're one<br /> of the first 20 buyers! See below for more info.</p>
 		<?php
 		}    
         ?>
@@ -73,9 +73,9 @@ class SilentSalesmanPro_Settings {
 		<div style="line-height: 20px; background: #F3F3F3;-moz-border-radius: 3px;border-radius: 3px;padding: 10px;-moz-box-shadow: 0 0 5px #ff0000;-webkit-box-shadow: 0 0 5px#ff0000;box-shadow: 0 0 5px #ff0000;padding: 10px;margin:0px auto; font-size: 13.8px;width: 60%;float: left"> 
 			<h2><?php _e('Get Silent Salesman Pro!','silentsalesman') ?></h2>
 			<br>
-			<strong><?php _e('Limited Offer:','silentsalesman') ?> <span style="color: red"><?php _e('50% off!','silentsalesman') ?></span></strong> - 
-			<span><?php _e('Valid for first 20 customers only.','silentsalesman')?></span>
-			<span><?php _e('Use Coupon Code ','silentsalesman')?></span><strong><span><?php _e('silentsalesman50','silentsalesman')?></span></strong>
+			<strong><?php _e('Limited Offer:','silentsalesman') ?> <span style="color: red"><?php _e('25% off!','silentsalesman') ?></span></strong> - 
+			<span><?php _e('Valid for first 25 customers only.','silentsalesman')?></span>
+			<span><?php _e('Use Coupon Code ','silentsalesman')?></span><strong><span><?php _e('silentsalesman25','silentsalesman')?></span></strong>
 			<span><?php _e('at checkout.','silentsalesman')?></span>
 			<br>
 			<br>
