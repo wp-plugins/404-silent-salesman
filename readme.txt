@@ -64,19 +64,34 @@ This plugin is now supported by a pro version which includes:
 
 == Screenshots ==
 
-1. Shows the final page after setting the options from the plugin setup page.
-2. Plugin Options. NOtice they match the page.
+1. Silent Salesman Settings Page
+2. Before 404 Silent Salesman
+3. After 404 Silent Salesman
 
 == Changelog ==
 
 
 
-No Changes 
+= 1.0.2 = 
+*Fixed bug with text not being displayed properly and generally cleaned up code. 
+*Pro version was released: https://wpovernight.com/downloads/silent-salesman-pro/ 
 
+= 1.0.1 =
+*Error Fixed
 
+= 1.0.0 =
+*Initial Release
 
 == Upgrade Notice ==
 
 
 
-No Upgrades
+= 1.0.2 = 
+*Fixed bug with text not being displayed properly and generally cleaned up code. 
+*Pro version was released: https://wpovernight.com/downloads/silent-salesman-pro/ 
+
+= 1.0.1 =
+*Error Fixed
+
+= 1.0.0 =
+*Initial Release
